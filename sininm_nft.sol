@@ -13,9 +13,9 @@ contract SininmMeta is ERC721Enumerable, Ownable {
     bool public _revealed = false;
 
     // Constants
-    uint256 public constant MAX_SUPPLY = 100;
+    uint256 public constant MAX_SUPPLY = 1000;
     uint256 public mintPrice = 0.01 ether;
-    uint256 public maxBalance = 10;
+    uint256 public maxBalance = 100;
     uint256 public maxMint = 1;
 
     string baseURI;
